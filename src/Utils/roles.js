@@ -1,0 +1,6 @@
+export const Role = {
+    CENTRAL_OPS: "CENTRAL_OPS",
+    CITY_MANAGER: "CITY_MANAGER",
+    STORE_MANAGER: "STORE_MANAGER",
+    EMPLOYEE: "EMPLOYEE",
+  };

@@ -1,0 +1,84 @@
+.competition-card-container {
+    height: max-content;
+    padding: 20px;
+    background-color: white;
+    border-radius: 15px;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  
+  .competition-header {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .competition-header h2 {
+    font-size: 28px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .competition-header h3 {
+    font-size: 20px;
+    color: #606f7b;
+    font-weight: 500;
+  }
+  
+  .cards-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .card {
+    background-color: #f9fafb; /* Subtle light gray background */
+    border-radius: 15px;
+    height: max-content;
+    padding: 20px;
+    width: 320px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    position: relative;
+    text-align: center;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px); /* Lift effect on hover */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card:first-child {
+    background-color: white; /* Gold color for the 1st place card */
+  }
+  
+  .card:nth-child(2) {
+    background-color: white; /* Silver color for the 2nd place card */
+  }
+  
+  .card:nth-child(3) {
+    background-color: white; /* Bronze color for the 3rd place card */
+  }
+  
+  .card-body h4 {
+    font-size: 22px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .card-body p {
+    font-size: 16px;
+    color: #606f7b;
+    margin-top: 5px;
+  }
+  
+  .card-emoji {
+    color: #333;
+    border-radius: 10px;
+    font-size: 30px;
+    padding: 10px;
+  }
+  

@@ -1,0 +1,68 @@
+/* SidePanel.css */
+
+.side-panel {
+    height: 100vh; /* Full-height for the sidebar */
+    width: 250px; /* Fixed width for the sidebar */
+    background-color: #ffffff; /* White background */
+    display: flex;
+    flex-direction: column; /* Stack content vertically */
+    justify-content: space-between; /* Space out top and bottom elements */
+    padding: 20px; /* Add padding around the content */
+    border-right: 1px solid #e0e0e0; /* Add a right border */
+  }
+  
+  .side-panel h2 {
+    font-size: 24px; /* Large font size for title */
+    font-weight: bold;
+    color: #4a90e2; /* Blue color for the title text */
+    margin-bottom: 30px; /* Add space below the title */
+    text-align: center; /* Center the title */
+    letter-spacing: 1px; /* Slight letter spacing */
+  }
+  
+  .side-panel nav ul {
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* Reset padding */
+    margin: 0; /* Reset margin */
+  }
+  
+  .side-panel nav ul li {
+    margin-bottom: 5px; /* Add space between each menu item */
+  }
+  
+  .side-panel nav ul li a {
+    font-size: 18px; /* Slightly larger font size */
+    font-weight: normal;
+    text-decoration: none; /* Remove underline */
+    color: #000000; /* Black text */
+    padding: 10px 15px; /* Add padding to the clickable area */
+    border-radius: 8px; /* Rounded corners */
+    display: block; /* Ensure the entire link area is clickable */
+  }
+  
+  .side-panel nav ul li a.active-link {
+    background-color: #4a90e2; 
+    color: #ffffff;
+  }
+  
+  .side-panel nav ul li a:hover {
+    background-color: #4a90e2; 
+    color: #ffffff;
+  }
+  
+  .side-panel button {
+    font-size: 16px; /* Button font size */
+    color: #000000; /* Black text */
+    background-color: transparent; /* No background */
+    border: none; /* Remove border */
+    cursor: pointer; /* Pointer cursor */
+    text-align: left; /* Align text to the left */
+    margin-top: auto; /* Push button to the bottom of the panel */
+    padding: 0; /* Remove extra padding */
+  }
+  
+  .side-panel button:hover {
+    color: #4a90e2; /* Change text color on hover */
+  }
+  
+  

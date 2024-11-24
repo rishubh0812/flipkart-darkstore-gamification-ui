@@ -1,0 +1,38 @@
+[
+   {
+       "id": 2,
+       "darkstore": {
+           "city": {
+               "city": "BANGALORE"
+           },
+           "darkstoreId": "ben_003_wh_hl_01",
+           "darkstoreName": "Site_003_B_Electronics_city"
+       },
+       "score": 158.28401224412943,
+       "competitionNo": 1
+   },
+   {
+       "id": 3,
+       "darkstore": {
+           "city": {
+               "city": "BANGALORE"
+           },
+           "darkstoreId": "ben_007_wh_hl_01",
+           "darkstoreName": "Site_007_B_Bommanhalli"
+       },
+       "score": 153.04302967537305,
+       "competitionNo": 1
+   },
+   {
+       "id": 85,
+       "darkstore": {
+           "city": {
+               "city": "MUMBAI"
+           },
+           "darkstoreId": "mum_080_wh_hl_01",
+           "darkstoreName": "Site_080_M_Kamothe"
+       },
+       "score": 94.425667400141,
+       "competitionNo": 1
+   }
+]

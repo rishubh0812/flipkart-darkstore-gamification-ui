@@ -1,0 +1,51 @@
+.dashboard-container {
+    padding: 20px;
+    background-color: #f5f7fa;
+}
+
+.filters-container {
+    margin-bottom: 20px;
+}
+
+/* Two-Column Layout */
+.dashboard-content {
+    display: flex;
+    gap: 20px;
+}
+
+/* Left Column Styling */
+.left-column {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #f3f4f6;
+}
+
+/* Right Column Styling */
+.right-column {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Metric Cards Styling */
+.metric-cards-container {
+    display: flex;
+    gap: 15px;
+}
+
+.metric-card {
+    background-color: #f3f4f6;
+    color: #1f2937;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    flex: 1;
+}
+
+
+
